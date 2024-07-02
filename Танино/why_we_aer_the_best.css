@@ -1,0 +1,92 @@
+.why_we_aer_the_best{
+    display: grid;
+    grid-template-rows: 30% 70%;
+    background-image: url(images/why_we_aer_the_best/fon1_img.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position:right 0;
+    height: 1000px;
+    padding-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.why_we_aer_the_best_inf{
+    display: grid;
+    justify-content: left;
+    align-items: flex-start;
+}
+.why_we_aer_the_best_inf_h{
+    font-size: 70px;
+    text-align: left;
+    font-weight: bolder;
+}
+.why_we_aer_the_best_inf_text{
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+    margin-right: 50%;
+    color:gray
+}
+.why_we_aer_the_best_p2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.why_we_aer_the_best_p2_cards{
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    gap:5%
+}
+.why_we_aer_the_best_p2_card{
+    display: grid;
+    grid-template-columns: 150px auto;
+    padding: 1%;
+    width: 70%;
+}
+.why_we_aer_the_best_p2_card:hover{
+    scale: 1.1;
+}
+.why_we_aer_the_best_p2_card_pic{
+    border-radius: 100%;
+    background-color: rgb(233, 255, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+}
+.why_we_aer_the_best_p2_card_img{
+    height: 50%;
+}
+.why_we_aer_the_best_p2_card_text{
+    display: grid;
+}
+.why_we_aer_the_best_p2_card_h{
+    font-size: 24px;
+}
+#why_we_aer_the_best_p2_card2{
+    background-color: rgb(233, 255, 233);
+}
+#why_we_aer_the_best_p2_card2 .why_we_aer_the_best_p2_card_pic{
+    background-color: white;
+}
+.why_we_aer_the_best_p2_men{
+    background-image: url(images/why_we_aer_the_best/men_img.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.why_we_aer_the_best_p2_arrow{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+.why_we_aer_the_best_p2_arrow_btn{
+    border-radius: 100%;
+    background: none;
+    border: none;
+    height: 60px;
+    width: 60px;
+}
+.why_we_aer_the_best_p2_arrow_btn img{
+    width: 100%;
+    height: 100%;
+}

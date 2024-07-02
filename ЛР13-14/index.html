@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="1.js"></script>
+    <title>Document</title>
+    <script>
+        function showTime() {
+            let now = new Date();
+            let hours = now.getHours();
+            let seconds = now.getSeconds();
+            alert(hours + ":" + seconds + ":" + hours);
+        }
+    </script>
+</head>
+<body>
+    <script>
+    function showName() {
+        let fio = "Шидловская Таня";
+        // Количество раз для вывода
+        let n = 21;
+        
+        // Переменная для отслеживания числа итераций
+        let count = 0;
+        var text = "";
+        // Цикл while для вывода ФИО
+        while (count < n) {
+            text += count+" "+fio+"<br>";
+            count++;
+        }
+        document.getElementById("demo").innerHTML = text;
+    }
+    </script>
+    <button onclick="showTime()">Показать год</button>
+    <button onclick="showName()">Вывод имени</button>
+    <p id="demo"></p>
+    <button onclick="processArray()">Выполнить операции с массивом</button>
+    <p id="output"></p>
+    <script>
+        // Функция для выполнения операций с массивом
+        function processArray() {
+          // Создаем массив из 8 целых элементов
+          let array = [7, 2, 5, 1, 9, 3, 8, 4];
+      
+          // Выводим исходный массив
+          let output = "Исходный массив: [" + array.join(", ") + "]<br>";
+      
+          // Сортируем массив по возрастанию
+          array.sort((a, b) => a - b);
+      
+          // Выводим массив после сортировки
+          output += "Массив после сортировки: [" + array.join(", ") + "]<br>";
+      
+          // Удаляем первый элемент массива
+          array.shift();
+      
+          // Выводим массив после удаления первого элемента
+          output += "Массив после удаления первого элемента: [" + array.join(", ") + "]";
+      
+          // Выводим результат на страницу в абзаце с id="output"
+          document.getElementById("output").innerHTML = output;
+        }
+      </script>
+
+    <form onsubmit="return false;">
+        <label for="inputX">Введите значение x:</label>
+        <input type="number" id="inputX" required>
+        <button onclick="calculateAndDisplay()">Вычислить</button>
+    </form>
+
+    <div id="result"></div>
+
+    <p id="output1"></p> <!-- Абзац для вывода результатов -->
+    <button onclick="processStrings()">Выполнить операции</button>
+</body>
+</html>

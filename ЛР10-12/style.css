@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    background-color: #b66464;
+}
+#userForm{
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20%;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    align-content: flex-start;
+    
+}
+#userForm label{
+    margin-bottom: 20px;
+}
+#userForm input{
+    margin-bottom: 20px;
+    height: 40px;
+    font-size: 2rem;
+}
+#userForm button{
+    height: 40px;
+    width: 400px;
+    font-size: 2rem;
+    background-color: blueviolet;
+    color: #fff;
+}
+#userForm textarea{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+#zirny{
+    font-weight: 600;
+}

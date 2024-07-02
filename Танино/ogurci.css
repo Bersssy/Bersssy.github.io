@@ -1,0 +1,70 @@
+.ogurci{
+    background-color: rgb(233, 255, 233);
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 3%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap:5%;
+    padding-bottom: 3%;
+}
+.ogurci_foto_img{
+    width: 100%;
+    height: auto;
+    background-color: rgb(172, 255, 172);
+}
+.ogurci_inf_i_listiki{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.ogurci_inf{
+    display: grid;
+    grid-template-rows: 40% 60%;
+}
+.ogurci_inf_h{
+    font-size: 70px;
+    text-align: left;
+    font-weight: bolder;
+    padding-right: 20%;
+    margin-bottom: 5%;
+}
+.ogurci_inf_text{
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+    margin-right: 20%;
+    color:gray
+}
+.ogurci_inf_btn_i_listiki{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 100%;
+}
+.ogurci_inf_btn_ob{
+    text-align: center;
+    height: 100%;
+}
+.ogurci_inf_btn{
+    background: none;
+    height: 70px;
+    width: 100%;
+    font-size: large;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap:5%;
+    border: none;
+}
+.ogurci_inf_btn:hover{
+    scale: 1.1;
+}
+.ogurci_inf_btn_img{
+    height: 100%;
+}
+.ogurci_inf_listiki{
+    overflow: hidden;
+}
+.ogurci_inf_listiki_img{
+    width: 80%;
+
+}

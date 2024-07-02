@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Exo 2", sans-serif;
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: #DDD;
+}
+.all{
+    margin: 0 5%;
+    background-color: #fff;
+}
+.card{
+    padding: 3% 7%;
+}
+.name_card{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.big_img{
+    position: relative;
+}
+.hit{
+    position: absolute;
+    background-color: orange;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.akcia{
+    position: absolute;
+    background-color: red;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    top:35px;
+}
+.big_img img{
+    width: 100%;
+}
+.harki{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    gap:15px
+}
+.gray_text{
+    color: gray;
+}
+.black_text{
+    color: black;
+    font-weight: 600;
+}
+.red_text{
+    color: red;
+}
+.card_ceni{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-left: 30%;
+}
+.zirny{
+    font-weight: 700;
+}
+.big_text{
+    font-size: 3rem;
+}
+p{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.card_ceni button{
+    background-color: rgb(226, 0, 0);
+    color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.flex_img{
+    display: flex;
+}
+.img{
+    width: 25%;
+    border: 1px solid rgb(199, 199, 199);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    opacity: 50%;
+}
+.img:hover{
+    opacity: 100%;
+}
+.img img{
+    width: 100%;
+}
+@media (max-width:1220px){
+    .grid1{
+        display: block;
+    }
+    .card_ceni{
+        margin: 40px 20%;
+    }
+    .flex_img{
+        opacity: 0;
+    }
+    body{
+        font-size: 2rem;
+        background-color: #DDD;
+    }
+    .akcia{
+        top:60px
+    }
+    .harki{
+        padding: 0;
+    }
+}

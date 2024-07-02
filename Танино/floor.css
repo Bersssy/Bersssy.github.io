@@ -1,0 +1,64 @@
+.floor{
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    padding: 5%;
+    margin-top: 10%;
+    background-color: rgb(233, 255, 233);
+}
+.floor_col1_planeta{
+    background-image: url(images/shapka/planeta_img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.floor_col1_text{
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+    color:gray
+}
+.floor_col2{
+    display: grid;
+    align-content: flex-start;
+}
+.floor_links{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 30px;
+}
+.floor_col2 a{
+    color:gray;
+    text-decoration: none;
+    margin-bottom: 5%;
+    font-size: 18px;
+}
+.floor_col3{
+    display: grid;
+    align-content: flex-start;
+}
+.floor_col3 a{
+    color:gray;
+    text-decoration: none;
+    margin-bottom: 5%;
+    font-size: 18px;
+}
+.floor_col4{
+    display: grid;
+    align-content: flex-start;
+}
+.mail{
+    color:gray;
+    text-decoration: none;
+    margin-bottom: 5%;
+    font-size: 18px;
+}
+.floor_btns{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.floor_btn{
+    height: 25px;
+    width: 25px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script>
+    function removeElement() {
+        const element1 = document.getElementById('element1');
+        element1.remove();
+    }
+    setInterval(() => {
+        const date1 = new Date().toLocaleString();
+        const size1 = document.documentElement.outerHTML.length;
+        const info = "Date: "+date1+" Size: "+size1+" bytes";
+        alert(info);
+    }, 5000);
+    function applyStyles(element) {
+        var element = document.getElementById("el2");
+        element.style.color = "red";
+        element.style.backgroundColor = "yellow";
+        element.style.fontFamily = "Arial";
+        element.style.font_size = "14px";
+        element.style.border = "2px solid blue";
+        }
+    </script>
+    <style>
+        input.invalid {
+            border: 2px solid red;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 12px;
+            display: none;
+        }
+    </style>
+    <script src = "1.js"></script>
+</head>
+<body>
+    <p id="element1" onclick="removeElement()">Шидловская Татьяна Васильевна</p>
+    <div id="el2" onclick="applyStyles(this)">06.05.2006</div>
+    <img src="/Без названия.jpg" alt="">
+    <form id="userForm" onsubmit="return validateForm()">
+        <label for="" id="zirny">Форма обратной связи</label>
+        <label for="phone">Введите телефон</label>
+        <input type="tel" id="phone" name="phone"><span class="error-message" id="phoneError">Введите номер телефона.</span>
+        <label for="email">Ваш mail</label>
+        <input type="email" id="email" name="email"><span class="error-message" id="emailError">Введите ваш E-mail.</span>
+        <label for="comment">Ваш вопрос</label>
+        <textarea id="comment" name="comment"></textarea><span class="error-message" id="commentError">Вопрос не должен привышать 100 символов.</span>
+        <div class="btn"><button>Отправить</button></div>
+    </form>
+    <p id="docInfo"></p>
+</body>
+</html>

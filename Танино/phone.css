@@ -1,0 +1,66 @@
+.phone{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 5%;
+    gap:5%;
+    height: 700px;
+}
+.phone_pic{
+    background-image: url(images/phone/phone_img.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.phone_p2{
+    display: grid;
+    grid-template-rows: 50px 200px 20% 61px;
+}
+.phone_p2_dowload_btn{
+    height: 100%;
+    width: 15%;
+    font-size: 18px;
+    background-color: rgb(233, 255, 233);
+    border: none;
+    border-radius: 50px;
+}
+.phone_p2_dowload_btn:hover{
+    scale: 1.1; 
+}
+.phone_p2_inf_h{
+    margin-top: 20px;
+    margin-right: 20%;
+    font-size: 61px;
+    text-align: left;
+    font-weight: bolder;
+}
+.phone_p2_inf_text{
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+    margin-right: 40%;
+    color:gray
+}
+.phone_p2_btns{
+    display: flex;
+    gap:5%;
+}
+.phone_p2_btn1{
+    height: 61px;
+    width: 209px;
+    background-image: url(images/phone/app_img.png);
+    border: none;
+    background-repeat: no-repeat;
+}
+.phone_p2_btn1:hover{
+    scale: 1.1;
+}
+.phone_p2_btn2{
+    height: 61px;
+    width: 209px;
+    background-image: url(images/phone/google_img.png);
+    border: none;
+    background-repeat: no-repeat;
+}
+.phone_p2_btn2:hover{
+    scale: 1.1;
+}

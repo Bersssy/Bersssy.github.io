@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ЛР8.1</title>
+</head>
+<body>
+    <div class="all">
+        <div class="upper_part">
+            Оформление заказа:
+            <hr>
+        </div>
+        <div class="shop_part">
+            <div class="left_block">
+                <div class="two_btns">
+                    <button id="new_pokupatel_btn">Новый покупатель</button>
+                    <button id="post_klient_btn">Я постоянный клиент</button>
+                </div>
+                <span class="zirniy">ФИО <span class="red_text">*</span></span><br>
+                <input type="text" class="input_data"><br>
+                <span class="zirniy">Телефон <span class="red_text">*</span></span><br>
+                <input type="tel" placeholder="OXX-XXX-XX-XX" class="input_data"><br>
+                <span class="zirniy" >E-mail <span class="red_text">*</span></span><br>
+                <input type="email" class="input_data"><br>
+                <span class="zirniy">Доставка <span class="red_text">*</span></span><br>
+                <select class="input_data1">
+                    <option >Выберите способ доставки</option>
+                    <option >Курьерская доставка</option>
+                    <option >Самовывоз</option>
+                    <option >Почта</option>
+                </select><br>
+                <span class="zirniy">Адрес <span class="red_text">*</span></span><br>
+                <input type="text" class="input_data"><br>
+                <span class="zirniy">Способ оплаты <span class="red_text">*</span></span><br>
+                <select class="input_data1">
+                    <option >Наличными</option>
+                    <option >Онлайн</option>
+                </select><br>
+                <p>При онлайн оплате вы автоматически <a href="#" class="pink_text1">соглашайтесь</a> с условиями пользования</p>
+                <span class="zirniy">Комментарии <span class="red_text">*</span></span><br>
+                <input type="text" class="big_input_data"><br>
+            </div>
+            <div class="right_block">
+                <div class="flex1">
+                    <span class="zirniy">Выбрано 2 товар(ов) на сумму 1174 грн.</span>
+                    <span class="zirniy"><span class="pink_text1">&#9998;</span>Редоктировать</span>
+                </div>
+                <div class="grid1">
+                    <div class="zirniy">Товар</div>
+                    <div></div>
+                    <div class="zirniy">Кол-во</div>
+                    <div class="zirniy">Цена</div>
+                    <div class="zirniy">Итого</div>
+                    <div><img src="/Платье.jpeg" alt=""></div>
+                    <div id="name_prod1">Платье Клэр Коралл Модный остров 48</div>
+                    <div>1</div>
+                    <div>422 грн.</div>
+                    <div>422 грн.</div>
+                    <div><img src="/6877393730.jpg" alt=""></div>
+                    <div id="name_prod2">Набор для изготовления картины со стазами KC001 Дождь на Двоих</div>
+                    <div>1</div>
+                    <div>752 грн.</div>
+                    <div>752 грн.</div>
+                </div>
+                <div class="itogo1">
+                    <div class="itogo">
+                        <div class="grid2">
+                            <div>Сумма: </div>
+                            <div>1174 грн.</div>
+                            <div class="zirniy">Итого к оплате: </div>
+                            <div class="big_pink_text">1174 грн.</div>
+                        </div>
+                        <span class="green_text">За данный заказ вы получфете 35 гривен бонусов.</span> 
+                    </div>
+                    <div class="oformit_zakaz">
+                        <button>Оформить заказ</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

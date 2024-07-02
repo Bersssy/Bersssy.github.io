@@ -1,0 +1,85 @@
+.organic_fruit{
+    background-color: rgb(233, 255, 233);
+    padding-top:5% ;
+    display: grid;
+    grid-template-rows: 40% 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 1000px;
+}
+.organic_fruit_inf{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.organic_fruit_inf_h{
+    font-size: 70px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.organic_fruit_inf_text{
+    font-size: 18px;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.organic_fruit_inf_btn_ob{
+    text-align: center;
+}
+.organic_fruit_inf_btn{
+    background: none;
+    height: 70px;
+    width: 13%;
+    font-size: large;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap:5%;
+    margin-left: 42.5%;
+    border: none;
+}
+.organic_fruit_inf_btn:hover{
+    scale: 1.1;
+}
+.organic_fruit_arrow_btn_img{
+    height: 100%;
+}
+.organic_fruit_p2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.organic_fruit_p2_pic{
+    background-image: url(images/organic_fruit/vet_img.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.organic_fruit_p2_blocks{
+    display: grid;
+    grid-template-rows: 25% 25% 25%;
+    gap:5%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+.organic_fruit_p2_block{
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px; 
+}
+.organic_fruit_p2_block:hover{
+    scale: 1.1;
+}
+.organic_fruit_p2_block_text{
+    text-align: center;
+}
+.big_text{
+    font-size: 60px;
+    font-weight: 300;
+}
+.lil_text{
+    font-size: 18px;
+    font-weight: 300;
+}
